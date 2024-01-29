@@ -1,0 +1,63 @@
+.navContainer{
+background: white;
+margin-left: 10px;
+margin-right: auto;
+}
+
+.login-button{
+    background-color: rgb(64, 61, 61);
+    color: white;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+}
+
+.send-button{
+    background-color: rgb(64, 61, 61);
+    color: white;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+}
+
+.login-button:hover{
+    background-color: gray;
+}
+
+.nav-link{
+    color: purple;
+    font-weight: 500;
+    position: relative;
+}
+
+.nav-link:hover, .nav-link.active{
+    color: black;
+}
+
+.fa-border-all{
+color: purple;
+}
+
+.image{
+    padding-top: 4%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.card{
+    border: none;
+}
+
+.cardTwo{
+   border-left: gray;
+}
+
+.fa-regular{
+    color: green;
+}

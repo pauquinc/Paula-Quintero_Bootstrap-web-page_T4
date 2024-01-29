@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web site_Assignment</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<!-- Bootstrap FontAwesome -->
+<script src="https://kit.fontawesome.com/87f6f45306.js" crossorigin="anonymous"></script>
+
+
+<body>
+    <!-- Head & Nav-->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container navContainer">
+            <!-- Responsive dropdown -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <i class="fa-solid fa-border-all"></i>
+            <a class="navbar-brand me-auto display-3" href="#">Grid</a>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Grid</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2 active" aria-current="page" href="#">How it Works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#">Who we are</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#">What we do</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <a href="#" class="login-button">Sign In</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="image" src="assets/hero.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+    </div>
+
+    <!-- Affordable Pricing Section -->
+    <div class="container">
+        <h1 class="text-center">Affordable Pricing</h1>
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Free</h5>
+                        <p class="card-text">
+                            <i class="fa-regular fa-circle-check"></i>
+                            Components-drive system
+                        </p>
+                        <p class="card-text">
+                            <i class="fa-regular fa-circle-check"></i>
+                            Sales-boosting landing pages
+                        </p>
+                        <p class="card-text">
+                            <i class="fa-regular fa-circle-check"></i>
+                            Awesome Feather icons pack
+                        </p>
+
+                        <button type="button" class="btn btn-secondary btn-lg btn-block ">Try for free</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="" alt="">
+
+                    <div class="card-body">
+                        <h5 class="card-title">$24</h5>
+                        <p class="card-text">
+                            <i class="fa-regular fa-circle-check"></i>
+                            Components-drive system
+                        </p>
+                        <p class="card-text">
+                            <i class="fa-regular fa-circle-check"></i>
+                            Sales-boosting landing pages
+                        </p>
+                        <p class="card-text">
+                            <i class="fa-regular fa-circle-check"></i>
+                            Awesome Feather icons pack
+                        </p>
+                        <p class="card-text">
+                            <i class="fa-regular fa-circle-check"></i>
+                            Themed into 3 different styles
+                        </p>
+                        <p class="card-text">
+                            <i class="fa-regular fa-circle-check"></i>
+                            Will help to learn Figma
+                        </p>
+
+                        <button type="button" class="btn btn-secondary btn-lg btn-block">Regular License</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="" alt="">
+
+                    <div class="card-body">
+                        <h5 class="card-title">$12</h5>
+                        <p class="card-text">
+                            <i class="fa-regular fa-circle-check" style="color:green"></i>
+                            Components-drive system
+                        </p>
+                        <p class="card-text">
+                            <i class="fa-regular fa-circle-check"></i>
+                            Sales-boosting landing pages
+                        </p>
+                        <p class="card-text">
+                            <i class="fa-regular fa-circle-check"></i>
+                            Awesome Feather icons pack
+                        </p>
+                        <p class="card-text">
+                            <i class="fa-regular fa-circle-check"></i>
+                            Themed into 3 different styles
+                        </p>
+
+                        <button type="button" class="btn btn-secondary btn-lg btn-block">Extended License</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="divider py-3 bg-secondary"></div>
+
+    <!-- Footer-->
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+    <div class="container my-5 d-none d-md-block">
+        <footer class="text-center text-lg-start text-dark  mx-lg-3 mx-sm-3">
+            <section class="">
+                <div class="container text-center text-md-start mt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <h6 class="text-uppercase fw-bold">Grid Company</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px; background-color: #7c4dff; height: 2px" />
+                            <p>
+                                On Grid Company we praise ourselves for being the number one creative solution to
+                                all our clients. We can't wait to work with you and embark on an amazing journey.
+                            </p>
+                        </div>
+
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                            <h6 class="text-uppercase fw-bold">Products</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px; background-color: #7c4dff; height: 2px" />
+                            <p>
+                                <a href="#!" class="text-dark">Marketing Campaigns</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-dark">Books/Reports layout</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-dark">Brand Flow</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-dark">UX/UI Design</a>
+                            </p>
+                        </div>
+
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <h6 class="text-uppercase fw-bold">Useful links</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px; background-color: #7c4dff; height: 2px" />
+                            <p>
+                                <a href="#!" class="text-dark">Your Account</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-dark">Become an Affiliate</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-dark">Our Clients</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-dark">Help</a>
+                            </p>
+                        </div>
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold">Contact</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px; background-color: #7c4dff; height: 2px" />
+                            <p><i class="fas fa-home mr-3"></i> Toronto, ON M5V 2G7, CA</p>
+                            <p><i class="fas fa-envelope mr-3"></i> info@pauqui.com</p>
+                            <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                            <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                        </div>
+                    </div>
+                </div>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Your email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">How can we help you?</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <a href="#" class="send-button">Sign In</a>
+                    </div>
+                </form>
+
+            </section>
+
+            <!-- Right -->
+            </section>
+            <!-- Section: Social media -->
+
+            <!-- Section: Links  -->
+        </footer>
+
+
+    </div>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
